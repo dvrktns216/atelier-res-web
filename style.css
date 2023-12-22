@@ -1,0 +1,100 @@
+body{
+    font-family: geometric, sans-serif;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hebergement {
+    width: 900px;
+    background-color: rgb(228, 228, 228);
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    h1, h2 {
+        margin-left: 10px;
+    }
+    .card {
+        width: 250px;
+        height: 200px;
+        background-color: white;
+        margin: 10px;
+        padding: 4px;
+        border-radius: 20px;
+        box-shadow: 0 2px 4px rgb(146, 146, 146); /* Ombre : décalage horizontal, décalage vertical, flou, couleur RGBA */
+        h2{
+            font-size: 1.1em;
+            margin: 0 0 0 5px;
+        }
+        p{
+            margin: 0 0 0 5px;
+        }
+        img {
+            width: 250px;
+            height: 125px;
+            object-fit: cover;
+            object-position: center;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.populaire {
+    width: 400px;
+    background-color: rgb(228, 228, 228);
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    h1, h2 {
+        margin-left: 10px;
+    }
+    .card {
+        display: flex;
+        width: 500px;
+        height: 125px;
+        flex-direction: row;
+        background-color: white;
+        margin: 10px;
+        padding: 4px;
+        border-radius: 20px;
+        box-shadow: 0 2px 4px rgb(146, 146, 146); /* Ombre : décalage horizontal, décalage vertical, flou, couleur RGBA */
+        h2{
+            font-size: 1.2em;
+            margin: 0 0 0 5px;
+        }
+        p{
+            margin: 0 0 0 5px;
+        }
+        img {
+            width: 150px;
+            height: 125px;
+            object-fit: cover;
+            object-position: center;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.stars i {
+  font-size: 24px;
+  color: #007bff;
+  margin: 0 2px;
+}
